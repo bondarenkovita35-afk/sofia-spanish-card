@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofía Osipovych — Викладач іспанської мови</title>
+
+    <!-- Premium fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <main class="wrap">
+        <section class="card" aria-label="Digital business card">
+
+            <header class="top">
+                <div class="avatar-wrap" aria-hidden="true">
+                    <img class="avatar" src="assets/sofia.jpg" alt="Sofía Osipovych" />
+                </div>
+
+                <div class="who">
+                    <p class="eyebrow" data-uk="Викладач іспанської мови" data-es="Profesora de español">
+                        Викладач іспанської мови
+                    </p>
+
+                    <h1 class="name">Софія Осипович</h1>
+
+                    <p class="sub" data-uk="Онлайн та офлайн заняття • Індивідуальні • Парні • Групові"
+                        data-es="Clases online y presenciales • Individuales • En pareja • Grupales">
+                        Онлайн та офлайн заняття • Індивідуальні • Парні • Групові
+                    </p>
+                </div>
+            </header>
+
+            <div class="chips" aria-label="Languages">
+                <span class="chip">Українська</span>
+                <span class="chip">Español</span>
+
+                <div class="lang" aria-label="Language switch">
+                    <button type="button" class="active" data-lang="uk">UA</button>
+                    <button type="button" data-lang="es">ES</button>
+                </div>
+            </div>
+
+            <section class="block" aria-label="About">
+                <h2 class="h2" data-uk="Про заняття" data-es="Sobre las clases">
+                    Про заняття
+                </h2>
+
+                <ul class="list">
+                    <li data-uk="Пояснюю просто та структуровано" data-es="Explico de forma clara y estructurada">
+                        Пояснюю просто та структуровано
+                    </li>
+                    <li data-uk="Розмовна практика з першого уроку"
+                        data-es="Práctica de conversación desde la primera clase">
+                        Розмовна практика з першого уроку
+                    </li>
+                    <li data-uk="План під ваш рівень і цілі" data-es="Plan adaptado a tu nivel y objetivos">
+                        План під ваш рівень і цілі
+                    </li>
+                </ul>
+            </section>
+
+            <section class="actions" aria-label="Actions">
+                <a class="btn primary" href="https://instagram.com/sofiia_osipovich" target="_blank" rel="noopener">
+                    <span class="btn-title" data-uk="Instagram: @sofiia_osipovich"
+                        data-es="Instagram: @sofiia_osipovich">
+                        Instagram: @sofiia_osipovich
+                    </span>
+                </a>
+
+                <button class="btn ghost" type="button" id="copyInsta" data-uk="Скопіювати Instagram"
+                    data-es="Copiar Instagram">
+                    Скопіювати Instagram
+                </button>
+            </section>
+
+            <section class="qr" aria-label="QR code">
+                <p class="qr-title" data-uk="Відскануйте QR-код" data-es="Escanea el código QR">
+                    Відскануйте QR-код
+                </p>
+
+                <img class="qr-img"
+                    src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Finstagram.com%2Fsofiia_osipovich"
+                    alt="QR code Instagram Sofía Osipovych" />
+            </section>
+
+            <footer class="footer">
+                <a class="brand" href="https://bondarenkovita35-afk.github.io/vs-litecode-studio/" target="_blank"
+                    rel="noopener">
+                    <img src="assets/vslitecode-logo.png" alt="VS LiteCode Studio" />
+                    <span>VS LiteCode Studio</span>
+                </a>
+            </footer>
+
+        </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
